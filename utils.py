@@ -88,7 +88,8 @@ def plot_history(history, test_gen, train_gen, model, test_df):
         ax.set_title(f'True: {test_df["label"].iloc[i + 1]}, Pred: {pred_labels[i + 1]}')
 
     plt.tight_layout()
-    plt.savefig('plots/history.png')
+    plt.savefig('figures/history.png', dpi=300)
+    plt.savefig('figures/history.pdf', bbox_inches='tight')
     plt.close()
     return history
 
