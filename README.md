@@ -159,7 +159,6 @@ Recognition_Weather/
 ├── notebooks/                    # Jupyter notebooks
 │   ├── hybrid_model_evaluation.ipynb
 │   └── loading_analysis_model.ipynb
-├── figures/                      # Generated visualizations
 ├── models/                       # Saved model weights (.h5)
 ├── utils.py                      # Shared data loading & plotting
 ├── requirements.txt              # Python dependencies
