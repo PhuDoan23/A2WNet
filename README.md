@@ -17,10 +17,10 @@ All models trained with **5 random seeds** on the [Weather Phenomenon Database (
 
 | Model | Test Accuracy | Std | Parameters | Key Strength |
 |---|---|---|---|---|
-| **A2WNet (Ours)** | **92.34%** | ±0.40% | ~225M | Highest consistency, contrastive separation |
+| **A2WNet (Ours)** | **92.34%** | ±0.40% | ~90M | Highest consistency, contrastive separation |
 | ViT-B/16 | 92.29% | ±0.50% | 86M | Strong global features |
-| HybridGated | 92.00% | ±0.72% | ~225M | Dynamic feature fusion |
-| VGG16 | 90.40% | ±0.51% | 138M | Robust local features |
+| HybridGated | 92.00% | ±0.72% | ~90M | Dynamic feature fusion |
+| VGG16 | 90.40% | ±0.51% | ~15M | Robust local features |
 | ResNet50 | 90.68% | — | 25M | Best accuracy-to-parameter ratio |
 | MobileNetV2 | 85.36% | — | 3.4M | Lightest for edge deployment |
 | AlexNet | 75.75% | — | 60M | Baseline (trained from scratch) |
