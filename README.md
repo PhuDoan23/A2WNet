@@ -6,7 +6,7 @@
 
 > **A2WNet** is a hybrid CNN–Transformer architecture for weather image recognition. It fuses local spatial features from VGG16 with global context from ViT-B/16 through a **dynamic gating mechanism** and trains with **supervised contrastive loss** to produce discriminative weather embeddings.
 >
-> 📄 *Accepted at [Conference Name 2026]*
+> 📄 *Accepted at [ICDAR 2026]*
 
 
 ---
